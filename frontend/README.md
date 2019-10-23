@@ -6,7 +6,7 @@
 
 ## Aplicação: Frontend do Meetapp
 
-O frontend utiliza a API do Meetapp ([pasta backend](url))
+O frontend utiliza a API do Meetapp ([pasta backend](../backend/README.md))
 
 1. Esta aplicação será utilizada por organizadores de meetups e não fornece as funcionalidades de inscrição.
 

@@ -8,7 +8,7 @@
 
 ## Aplicação: App _Mobile_ do Meetapp
 
-O aplicativo utiliza a API do Meetapp ([pasta backend](url))
+O aplicativo utiliza a API do Meetapp ([pasta backend](../backend/README.md))
 
 1. Esta aplicação será utilizada por inscritos nos _meetups_ e não contará com funcionalidades de organização de _meetups_.
 
