@@ -14,7 +14,7 @@ Meetapp é um aplicativo de cadastro e inscrição em _meetups_, com as seguinte
 4. Sempre que um usuário se inscrever no _meetup_, um e-mail é enviado ao organizador contendo os dados relacionados ao usuário inscrito
 
 <p align="center">
-  <img width="300" src="./email-notification.png">
+  <img width="500" src="./email-notification.png">
 </p>
 
 ## Instalação e Inicialização
@@ -78,7 +78,7 @@ yarn dev-seed
 
 ## Rotas
 
-Junto segue o arquivo (Insominia_2019-10-13.json) para importar as rotas para o [Insomnia](https://insomnia.rest/)
+Junto segue o arquivo ([Insominia_2019-10-13.json](./Insominia_2019-10-13.json)) para importar as rotas para o [Insomnia](https://insomnia.rest/)
 
 | Método | Rota               | Privado |                                                                               |
 | :----: | :----------------- | :-----: | ----------------------------------------------------------------------------- |
@@ -176,7 +176,7 @@ Os testes com o banco de dados ocorrem usando o sqlite por default. Caso queira 
 
 ## Extra
 
-Um _cron_ manda para a fila de execução um _job_ (`VanishUnusedImages`) todos os dias às 01:00 AM UTC para procurar e excluir imagens gravadas durante o dia que antecede as 48 horas. Este tempo pode ser alterado dentro do arquivo `/config/constants.js` na variável de nome `HOURS_UTIL_VANISH_IMAGES`. As 48 horas foram escolhidas para haver uma certa segurança com o _cache_ de 24 horas.
+Um _cron_ manda para a fila de execução um _job_ (`VanishUnusedImages`) todos os dias às 01:00 AM UTC para procurar e excluir imagens gravadas durante o dia que antecede as 48 horas. Este tempo pode ser alterado dentro do arquivo `/config/constants.js` na variável de nome `HOURS_UTIL_VANISH_IMAGES`. As 48 horas foram escolhidas para haver uma certa segurança com o _cache_ de 24 horas (**Cache Não Implementado**).
 
 - após a execução da _queue_ já relatada, pode iniciar o _cron_:
 

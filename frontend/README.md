@@ -6,7 +6,7 @@
 
 ## Aplicação: Frontend do Meetapp
 
-O frontend utiliza a API do Meetapp ([pasta backend](../backend/README.md))
+O frontend utiliza a API do Meetapp ([pasta backend](../backend))
 
 1. Esta aplicação será utilizada por organizadores de meetups e não fornece as funcionalidades de inscrição.
 
@@ -20,13 +20,13 @@ O frontend utiliza a API do Meetapp ([pasta backend](../backend/README.md))
 - Perfil: para edição das informações do usuário autenticado.
 
 <p align="center" style="margin: 25px 0">
-  <img style="display: inline-block; margin: 0 10px" width="256" height="256" src="./meetapp/signin.png">
-  <img style="display: inline-block; margin: 0 10px" width="256" height="256" src="./meetapp/signup.png">
-  <img style="display: inline-block; margin: 0 10px" width="256" height="256" src="./meetapp/dashboard.png">
-  <img style="display: inline-block; margin: 0 10px" width="256" height="256" src="./meetapp/showMeetup.png">
-  <img style="display: inline-block; margin: 0 10px" width="256" height="256" src="./meetapp/createMeetup.png">
-  <img style="display: inline-block; margin: 0 10px" width="256" height="256" src="./meetapp/editMeetup.png">
-  <img style="display: inline-block; margin: 0 10px" width="256" height="256" src="./meetapp/profile.png">
+  <img style="display: inline-block; margin: 0 10px" width="300" height="300" src="./meetapp/signin.png">
+  <img style="display: inline-block; margin: 0 10px" width="300" height="300" src="./meetapp/signup.png">
+  <img style="display: inline-block; margin: 0 10px" width="300" height="300" src="./meetapp/dashboard.png">
+  <img style="display: inline-block; margin: 0 10px" width="300" height="300" src="./meetapp/showMeetup.png">
+  <img style="display: inline-block; margin: 0 10px" width="300" height="300" src="./meetapp/createMeetup.png">
+  <img style="display: inline-block; margin: 0 10px" width="300" height="300" src="./meetapp/editMeetup.png">
+  <img style="display: inline-block; margin: 0 10px" width="300" height="300" src="./meetapp/profile.png">
 </p>
 
 ## Instalação e Inicialização

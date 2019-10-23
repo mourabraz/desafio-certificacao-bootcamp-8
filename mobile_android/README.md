@@ -8,7 +8,7 @@
 
 ## Aplicação: App _Mobile_ do Meetapp
 
-O aplicativo utiliza a API do Meetapp ([pasta backend](../backend/README.md))
+O aplicativo utiliza a API do Meetapp ([pasta backend](../backend))
 
 1. Esta aplicação será utilizada por inscritos nos _meetups_ e não contará com funcionalidades de organização de _meetups_.
 
@@ -21,12 +21,12 @@ O aplicativo utiliza a API do Meetapp ([pasta backend](../backend/README.md))
 - Perfil: para edição das informações do usuário autenticado.
 
 <p align="center" style="margin: 25px 0">
-  <img style="display: inline-block; margin: 0 10px" width="256" src="./meetapp/signin.png">
-  <img style="display: inline-block; margin: 0 10px" width="256" src="./meetapp/signup.png">
-  <img style="display: inline-block; margin: 0 10px" width="256" src="./meetapp/dashboard.png">
-  <img style="display: inline-block; margin: 0 10px" width="256" src="./meetapp/inscricoes_s.png">
-  <img style="display: inline-block; margin: 0 10px" width="256" src="./meetapp/inscricoes_e.png">
-  <img style="display: inline-block; margin: 0 10px" width="256" src="./meetapp/perfil.png">
+  <img style="display: inline-block; margin: 0 10px" width="300" src="./meetapp/signin.png">
+  <img style="display: inline-block; margin: 0 10px" width="300" src="./meetapp/signup.png">
+  <img style="display: inline-block; margin: 0 10px" width="300" src="./meetapp/dashboard.png">
+  <img style="display: inline-block; margin: 0 10px" width="300" src="./meetapp/inscricoes_s.png">
+  <img style="display: inline-block; margin: 0 10px" width="300" src="./meetapp/inscricoes_e.png">
+  <img style="display: inline-block; margin: 0 10px" width="300" src="./meetapp/perfil.png">
 </p>
 
 ## Instalação e Inicialização
