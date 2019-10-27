@@ -3,7 +3,7 @@ import { takeLatest, call, put, all } from 'redux-saga/effects';
 
 import api from '~/services/api';
 
-import { signInSuccess, signFailure } from './actions';
+import { signInSuccess, signFailure, signInRequest } from './actions';
 
 export function* signIn({ payload }) {
   try {
@@ -37,6 +37,8 @@ export function* signUp({ payload }) {
       email,
       password,
     });
+
+    yield put(signInRequest(email, password));
   } catch (error) {
     Alert.alert(
       'Falha no cadastro',
